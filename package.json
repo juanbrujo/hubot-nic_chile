@@ -1,0 +1,21 @@
+{
+  "name": "@juanbrujo/hubot-nic_chile",
+  "version": "0.0.1",
+  "description": "Hubot script que muestra dominios inscritos en nic.cl en la última hora",
+  "main": "nic-ultimos-dominios.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanbrujo/hubot-nic_chile.git"
+  },
+  "keywords": [
+    "hubot",
+    "nic",
+    "chile"
+  ],
+  "author": "Jorge Epuñan <juanbrujo@gmail.com> (http://www.csslab.cl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juanbrujo/hubot-nic_chile/issues"
+  },
+  "homepage": "https://github.com/juanbrujo/hubot-nic_chile#readme"
+}
