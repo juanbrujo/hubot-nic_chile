@@ -1,5 +1,5 @@
 {
-  "name": "@juanbrujo/hubot-nic_chile",
+  "name": "hubot-nic_chile",
   "version": "0.0.1",
   "description": "Hubot script que muestra dominios inscritos en nic.cl en la última hora",
   "main": "nic-ultimos-dominios.js",
