@@ -30,7 +30,7 @@ module.exports = function(robot) {
       });
 
       msg.send( $('.tablabusqueda tr:first-child td').text() + ":" );
-      msg.send( dominios.toString() );
+      msg.send( dominios.join(', ') );
 
     });
 
