@@ -1,0 +1,18 @@
+language: node_js
+cache:
+  directories:
+    - ~/.npm
+node_js:
+  - "10"
+notifications:
+  email: false
+stages:
+  - test
+  - name: deploy
+    if: branch = master
+jobs:
+  include:
+    - stage: test
+      script: echo "no test"
+    - stage: deploy
+      script: npx semantic-release
