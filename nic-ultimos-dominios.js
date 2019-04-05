@@ -8,31 +8,30 @@
 //   None
 //
 // Commands:
-//   hubot lista dominios
+//   hubot lista dominios|nic
 //
 // Author:
 //   @jorgeepunan
 
-var cheerio = require('cheerio');
+const cheerio = require('cheerio')
 
 module.exports = function(robot) {
-  robot.respond(/lista dominios/i, function(msg) {
+  robot.respond(/lista (dominios|nic)/i, function(msg) {
 
-    var url = 'http://www.nic.cl/registry/Ultimos.do?t=1h';
+    const url = 'https://www.nic.cl/registry/Ultimos.do?t=1h'
 
     msg.robot.http(url).get()(function(err, res, body) {
 
-      var $ = cheerio.load(body);
-      var dominios = [];
+      const $ = cheerio.load(body)
+      let domains = []
 
       $('.tablabusqueda td div a').each(function() {
-        dominios.push( $(this).text() );
+        domains.push( $(this).text() )
       });
 
-      msg.send( $('.tablabusqueda tr:first-child td').text() + ":" );
-      msg.send( dominios.join(', ') );
+      msg.send( '*' + $('.tablabusqueda tr:first-child td').text() + ':* ' + domains.join(', '))
 
-    });
+    })
 
-  });
-};
+  })
+}

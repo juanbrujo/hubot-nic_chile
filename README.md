@@ -20,7 +20,7 @@ Agregar en `external-scripts.json`:
 ### Uso:
 
 ````
-hubot> hubot lista dominios
+hubot> hubot lista dominios|nic
 ````
 
 **Ejemplo:**
@@ -28,8 +28,7 @@ hubot> hubot lista dominios
 ````
 hubot> hubot lista dominios
 
-hubot> 14 Dominios Inscritos (última hora):
-hubot > consultoranorte.cl,arenasdeancud.cl,mitube.cl,industrialpro.cl,guitarraszaragoza.cl,cipriani.cl,masabor.cl,tecnoconstrucciones.cl,rhinoproteccion.cl,criseconsulting.cl,hauss.cl,puroalgodon.cl,haussconstructora.cl,althus.cl
+hubot> *8 Dominios Inscritos (última hora):* bioagradable.cl, atractorconsultores.cl, ampueroechegaray.cl, clavetours.cl, techcel.cl, eventoscristianos.cl, corporacionnuevaluz.cl, plz.cl
 ````
 
 ### Licencia:
