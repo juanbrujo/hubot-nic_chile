@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/juanbrujo/hubot-nic_chile#readme",
   "scripts": {
-    "test": "node --test \"test/*.test.js\"",
+    "test": "node --test test/nic.test.js",
     "lint": "eslint ."
   },
   "dependencies": {
