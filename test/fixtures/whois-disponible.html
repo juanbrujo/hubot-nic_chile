@@ -1,0 +1,414 @@
+
+
+
+
+
+
+
+
+	
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>NIC Chile</title>
+<link href="/css/estilo1.css" rel="stylesheet" type="text/css" />
+<link href="/css/menutop.css" rel="stylesheet" type="text/css">
+<link rel="icon" type="image/png" href="/img/favicon.png">
+<style>
+/*estilo tablabusqueda*/
+.tablabusqueda {
+	padding:0px;
+	margin-left:190px;
+	border:1px solid #000000;
+	
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+	
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+	
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+	
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}.tablabusqueda table{
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}.tablabusqueda tr:last-child td:last-child {
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+}
+.tablabusqueda table tr:first-child td:first-child {
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+	border-width: 0px;
+}
+.tablabusqueda table tr:first-child td:last-child {
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+}.tablabusqueda tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+}.tablabusqueda tr:hover td{
+	background-color:#ffffff;
+}
+.tablabusqueda td{
+	vertical-align:middle;
+	text-align:left;
+	padding:7px;
+	font-size:13px;
+	font-family:Arial;
+	font-weight:normal;
+	color:#000000;
+}.tablabusqueda tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.tablabusqueda tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.tablabusqueda tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+.tablabusqueda tr:first-child td {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+button {
+	height: 25px;
+	text-align: center;
+	font-style: normal;
+	font-weight: normal;
+	padding-top: 2px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 6px;
+	font-family: Arial, Helvetica, sans-serif;
+	border-top-left-radius: 1px;
+	border-top-right-radius: 1px;
+	border-bottom-right-radius: 1px;
+	border-bottom-left-radius: 1px;
+}
+
+/* Line 2309 */
+.showListBtn {
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 6px;
+}
+
+/* Line 445 */
+.submitButton {
+	background-color: #499141;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	font-weight: bold;
+	font-size: 12px;
+	height: 37px;
+	color: #ffffff;
+	padding-top: 0px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	cursor: pointer;
+}
+
+/* Line 456 */
+.submitButton:hover {
+	background-color: #3c8034;
+}
+
+</style>
+</head>
+
+
+<body class="interior">
+	<!--inicio wrapper-->
+	<div id="wrapper">
+		<!--inicio main-->
+		<div id="main-paginterior">
+		
+			<!--inicio cabecera-->
+			<div id="header-interior">
+
+				<div id="header-der1">
+
+
+					<!-- menu -->
+
+					<!-- MENU -->
+					<div id="menu-nav">
+						<script type="text/javascript">
+						<!--
+							var last;
+
+							function accClass(current) {
+
+								if (last)
+									last.className = '';
+								current.className = 'menuactive';
+								last = current;
+
+							}
+						// -->
+						</script>
+
+						<div id="subnavbar">
+							<ul id="subnav">
+								<li><a onclick="javascript:accClass(this)"
+									href="/dominios/index.html" title="Nombres de dominio">DOMINIOS</a>
+									<ul>
+										<li><a href="https://clientes.nic.cl/" title="">PANEL
+												DE CONTROL</a></li>
+										<li><a href="/dominios/tarifas.html" title="">TARIFAS</a></li>
+										<li><a href="/dominios/index.html"> <span
+												style="font-size: 16px;">&#8227;</span> Más...
+										</a>
+									</ul></li>
+								<li><a onclick="javascript:accClass(this)"
+									href="/normativa/index.html" title="Reglamentación y
+Normativa">REGLAMENTACIÓN</a>
+									<ul>
+										<li><a href="/normativa/reglamentacion.html" title="">REGLAMENTACIÓN
+												DE .CL</a></li>
+										<li><a href="/normativa/procedimientos.html" title="">PROCEDIMIENTOS</a></li>
+										<li><a href="/normativa/index.html"> <span
+												style="font-size: 16px;">&#8227;</span> Más...
+										</a>
+									</ul></li>
+								<li><a onclick="javascript:accClass(this)"
+									href="/controversias/index.html"
+									title="Sistema de
+Controversias">CONTROVERSIAS</a>
+									<ul>
+										<li><a href="/controversias/el_centro.html" title="">EL
+												CENTRO</a></li>
+										<li><a href="/controversias/normas_aplicables.html"
+											title="">NORMAS APLICABLES</a></li>
+										<li><a href="/controversias/listado_arbitros.html"
+											title="">LISTADO DE ÁRBITROS</a></li>
+										<li><a href="/controversias/tabla_honorarios.html"
+											title="">TABLA DE HONORARIOS</a></li>
+										<li><a href="/controversias/comite_evaluacion.html"
+											title="">COMITÉ DE EVALUACIÓN</a></li>
+										<li><a href="/controversias/sistema_de_conflictos.html"
+											title="">SISTEMA DE CONFLICTOS</a></li>
+										<li><a href="/controversias/index.html"> <span
+												style="font-size: 16px;">&#8227;</span> Más...
+										</a>
+									</ul></li>
+								<li><a onclick="javascript:accClass(this)"
+									href="/acerca/index.html" title="Acerca de NIC Chile">ACERCA DE</a>
+								</li>
+								<li><a onclick="javascript:accClass(this)"
+									href="/ayuda/index.html" title="Ayuda">AYUDA</a>
+									<ul>
+										<li><a href="/ayuda/faq/index.html" title="FAQ">PREGUNTAS
+												FRECUENTES</a></li>
+										<li><a href="/ayuda/tutoriales/index.html"
+											title="Tutoriales">TUTORIALES</a></li>
+										<li><a href="/ayuda/index.html"> <span
+												style="font-size: 16px;">&#8227;</span> Más...
+										</a>
+									</ul></li>
+							</ul>
+						</div>
+						<!--FIN MENU-->
+
+
+						<!-- menu -->
+
+					</div>
+
+					<!--CAJA INSCIPCION DOMINIO-->
+					<form method="GET" action="/registry/Whois.do">
+						<div id="inscribe-dom">
+							Inscribe tu dominio: <input type="text" size="12" name="d"
+								class="nombredominio"> <span class="puntocl">.cl
+							</span> <input name="buscar" type="submit" id="btn-inscribedominio" /> <input
+								name="a" type="hidden" value="inscribir" />
+						</div>
+					</form>
+				</div>
+
+				<!--LOGO-->
+
+				<a href="/index.html" title="NIC Chile" id="header-izq1interior">Inicio</a>
+
+			</div>
+
+			<!--inicio cuerpo-->
+
+			<div id="cuerpo-interior">
+				<div id="parchesombra">
+					<img src="/img/sombra-interior.png" alt="sombra" height="35"
+						width="380">
+				</div>
+			</div>
+			<!--FIN IMAGEN BANNER ESTATICO-->
+
+			
+		<script src="https://www.google.com/recaptcha/api.js"></script>
+		<script src="js/captcha.js"></script>
+
+		<div id="cajacentro-interior">
+			<div id="breadcums">
+				<img src="img/bullet2.gif" alt="Usted está aquí" height="16"
+					style="vertical-align: middle; border: 0;" width="20"><a
+					href="/">Inicio</a> &gt; Consulta whois
+			</div>
+			<div id="box-tablaresultados">
+
+
+				<span class="titcajasinterior">Whois para .CL / Consultas de
+					nombres de dominio</span>
+				<p>&nbsp;</p>
+
+
+				<form name="buscarDominioForm" method="post" action="/registry/BuscarDominio.do;jsessionid=CD6FE417DBE76567C307418DCCA652A4.worker2">
+					<div style="text-align: center;">
+						<table
+							style="margin-left: auto; margin-right: auto; margin-bottom: 20px; border-collapse: collapse; border: 0px solid #DDD;">
+							<tbody>
+								<tr>
+									<td>Buscar dominio:&nbsp;&nbsp;</td>
+									<td><input type="text" name="patron" maxlength="63" size="30" value="xokutest297595936.cl"></td>
+									<td><input type="submit" name="buscar" value=" Buscar Dominio " id="btn-dominiosinscritos"></td>
+								</tr>
+								<tr>
+									<td>&nbsp;</td>
+									<td colspan="2" style="font-size: 12px; text-align: left;">
+										<input type="radio" name="filtro" value="exacta" checked="checked" onclick="quitaDisplay('captcha')">Exacta
+										<input type="radio" name="filtro" value="contenga" onclick="agregaDisplay('captcha')" id="radioContenga">Contenga
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- captcha en caso de filtro "contenga" -->
+						<div id="captcha" style="text-align: -moz-center;display:none;text-align: -webkit-center;">
+							<div class="g-recaptcha" data-sitekey="6Ld87MUUAAAAAFZUU_52ZifLwMem9WtKi2IJ6dsW"></div>
+						</div>
+					</div>
+				</form>
+				
+				
+
+				
+
+				
+					
+						<table class="tablabusqueda"
+							style="border-spacing: 10px; border-collapse: separate; border-width: 0px; background-color: #f6f6f6; width: 600px;">
+							<tr>
+								<td>Nombre de dominio no existe.</td>
+							</tr>
+							<tr style="border-width: 0px;">
+								<td style="text-align: center;"><button value=" Continuar "
+										id="submitButton" class="submitButton showListBtn"
+										onclick="document.location.href='https://clientes.nic.cl/registrar/agregarDominio.do?d=eG9rdXRlc3QyOTc1OTU5MzYuY2w='">Inscribir
+										"xokutest297595936.cl"</button> <br> <br> <a
+									href="http://www.nic.cl/dominios/tarifas.html">Ver Tarifas</a></td>
+							</tr>
+							<tr>
+								<td style="text-align: right;"><i>Fecha Actual: 2026-10-26 18:53:08 CLST</i></td>
+							</tr>
+						</table>
+						<br>
+					
+				
+			</div>
+			
+			<p>&nbsp;</p>
+
+		</div>
+	
+		</div>
+		<!--fin wrapper-->
+	</div>
+
+
+
+
+
+	<!--inicio pie de pagina-->
+
+	<div id="footer-corto">
+		<div id="interior-footercorto">
+			<!--  LOGO FCFM Y MENU PIE-->
+			<div id="interiorizq-footercorto">
+				<a href="http://ingenieria.uchile.cl"><img
+					src="/img/logo-fcfm.gif" alt="FCFM" height="85" style="border: 0;"
+					width="200"></a>
+				<div id="menufooter">
+					<ul>
+						<li><a href="/buscar/index.html">Buscar en el sitio</a></li>
+						<li><a href="/cursos/index.html">Cursos</a></li>
+						<li><a href="/contacto/index.html">Contacto</a></li>
+						<li><a href="/ayuda/index.html">Ayuda</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="interiorder-footercorto">
+				<!-- REDES SOCIALES Y TEXTO-->
+				<div id="caja-texto">
+					<div id="social-iconos-pie">
+						<span class="siguenos">Síguenos en: </span><a
+							href="/ayuda/lista-anuncios.html"><img
+							src="/img/icono-mail.jpg" alt="E-mail" style="margin-left: 15px; border:0;"
+							height="31" width="31"></a><a
+							href="http://www.facebook.com/NICChile"><img
+							src="/img/icono-fb.jpg" alt="NIC Chile en Facebook" height="31"
+							style="border:0;" width="31"></a><a
+							href="http://www.twitter.com/NICChile"><img
+							src="/img/icono-twitter.jpg" alt="NIC Chile en Twitter"
+							height="31" style="border:0;" width="31"></a><a
+							href="https://google.com/+nicchile"><img
+							src="/img/icono-gmas.jpg" alt="NIC Chile en Google+" height="31"
+							style="border:0;" width="31"></a><a href="/anuncios/anuncios.rdf"><img
+							src="/img/icono-rss.jpg" alt="NIC Chile por RSS"
+							style="margin-left: 15px; border:0;" height="31" width="31"></a>
+					</div>
+					&nbsp;
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4932820-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</body>
+</html>
+
